@@ -56,13 +56,7 @@
         "swirl_radius_min": 2.5,
         "swirl_radius_max": 7.5,
         "swirl_y_squash": 0.7,
-        "colors": [
-          "#00ffe7",
-          "#a855f7",
-          "#3b82f6",
-          "#f0c060",
-          "#ffffff"
-        ]
+        "colors": ["#00ffe7","#a855f7","#3b82f6","#f0c060","#ffffff"]
       },
       "lighting": {
         "ambient_color": "#0a0020",
@@ -71,38 +65,22 @@
           {
             "color": "#00ffe7",
             "intensity": 6,
-            "position": [
-              4,
-              3,
-              4
-            ]
+            "position": [4,3,4]
           },
           {
             "color": "#a855f7",
             "intensity": 5,
-            "position": [
-              -4,
-              -2,
-              3
-            ]
+            "position": [-4,-2,3]
           },
           {
             "color": "#3b82f6",
             "intensity": 4,
-            "position": [
-              0,
-              -4,
-              -3
-            ]
+            "position": [0,-4,-3]
           },
           {
             "color": "#f0c060",
             "intensity": 3,
-            "position": [
-              -3,
-              4,
-              -2
-            ]
+            "position": [-3,4,-2]
           }
         ]
       },
@@ -125,11 +103,7 @@
         "rings": {
           "enabled": false,
           "count": 3,
-          "colors": [
-            "#00ffe7",
-            "#a855f7",
-            "#f0c060"
-          ],
+          "colors": ["#00ffe7","#a855f7","#f0c060"],
           "base_opacity": 0.35,
           "spin_speed": 0.3
         },
@@ -219,13 +193,7 @@
         "swirl_radius_min": 2,
         "swirl_radius_max": 6.5,
         "swirl_y_squash": 0.5,
-        "colors": [
-          "#ff4400",
-          "#ff8800",
-          "#ffcc00",
-          "#ff0066",
-          "#ffffff"
-        ]
+        "colors": ["#ff4400","#ff8800","#ffcc00","#ff0066","#ffffff"]
       },
       "lighting": {
         "ambient_color": "#1a0500",
@@ -234,38 +202,22 @@
           {
             "color": "#ff4400",
             "intensity": 8,
-            "position": [
-              4,
-              3,
-              4
-            ]
+            "position": [4,3,4]
           },
           {
             "color": "#ff8800",
             "intensity": 6,
-            "position": [
-              -4,
-              -2,
-              3
-            ]
+            "position": [-4,-2,3]
           },
           {
             "color": "#ffcc00",
             "intensity": 5,
-            "position": [
-              0,
-              -4,
-              -3
-            ]
+            "position": [0,-4,-3]
           },
           {
             "color": "#ff0066",
             "intensity": 4,
-            "position": [
-              -3,
-              4,
-              -2
-            ]
+            "position": [-3,4,-2]
           }
         ]
       },
@@ -288,10 +240,7 @@
         "rings": {
           "enabled": true,
           "count": 2,
-          "colors": [
-            "#ff4400",
-            "#ffcc00"
-          ],
+          "colors": ["#ff4400","#ffcc00"],
           "base_opacity": 0.45,
           "spin_speed": 0.6
         },
@@ -370,13 +319,7 @@
         "swirl_radius_min": 3,
         "swirl_radius_max": 9,
         "swirl_y_squash": 0.9,
-        "colors": [
-          "#0055ff",
-          "#00ffaa",
-          "#8800ff",
-          "#ffffff",
-          "#002244"
-        ]
+        "colors": ["#0055ff","#00ffaa","#8800ff","#ffffff","#002244"]
       },
       "lighting": {
         "ambient_color": "#000510",
@@ -385,38 +328,22 @@
           {
             "color": "#0055ff",
             "intensity": 7,
-            "position": [
-              4,
-              3,
-              4
-            ]
+            "position": [4,3,4]
           },
           {
             "color": "#00ffaa",
             "intensity": 5,
-            "position": [
-              -4,
-              -2,
-              3
-            ]
+            "position": [-4,-2,3]
           },
           {
             "color": "#8800ff",
             "intensity": 6,
-            "position": [
-              0,
-              -4,
-              -3
-            ]
+            "position": [0,-4,-3]
           },
           {
             "color": "#ffffff",
             "intensity": 2,
-            "position": [
-              -3,
-              4,
-              -2
-            ]
+            "position": [-3,4,-2]
           }
         ]
       },
@@ -439,12 +366,7 @@
         "rings": {
           "enabled": true,
           "count": 4,
-          "colors": [
-            "#0055ff",
-            "#00ffaa",
-            "#8800ff",
-            "#ffffff"
-          ],
+          "colors": ["#0055ff","#00ffaa","#8800ff","#ffffff"],
           "base_opacity": 0.2,
           "spin_speed": 0.15
         },
@@ -524,13 +446,7 @@
         "swirl_radius_min": 4.9,
         "swirl_radius_max": 14,
         "swirl_y_squash": 0.4,
-        "colors": [
-          "#80ff00",
-          "#e1ff00",
-          "#e9590c",
-          "#4bbb35",
-          "#54b070"
-        ]
+        "colors": ["#80ff00","#e1ff00","#e9590c","#4bbb35","#54b070"]
       },
       "lighting": {
         "ambient_color": "#000510",
@@ -539,38 +455,22 @@
           {
             "color": "#ffea00",
             "intensity": 7,
-            "position": [
-              1.5,
-              3,
-              4
-            ]
+            "position": [1.5,3,4]
           },
           {
             "color": "#e1ff00",
             "intensity": 2.5,
-            "position": [
-              -4,
-              -3.5,
-              3
-            ]
+            "position": [-4,-3.5,3]
           },
           {
             "color": "#8800ff",
             "intensity": 6,
-            "position": [
-              0,
-              -4,
-              -3
-            ]
+            "position": [0,-4,-3]
           },
           {
             "color": "#ffffff",
             "intensity": 2,
-            "position": [
-              -3,
-              4,
-              -2
-            ]
+            "position": [-3,4,-2]
           }
         ]
       },
@@ -593,12 +493,7 @@
         "rings": {
           "enabled": false,
           "count": 1,
-          "colors": [
-            "#0055ff",
-            "#00ffaa",
-            "#8800ff",
-            "#ffffff"
-          ],
+          "colors": ["#0055ff","#00ffaa","#8800ff","#ffffff"],
           "base_opacity": 0,
           "spin_speed": 0.05
         },
@@ -684,13 +579,7 @@
         "swirl_radius_min": 4.9,
         "swirl_radius_max": 14,
         "swirl_y_squash": 0.4,
-        "colors": [
-          "#80ff00",
-          "#e1ff00",
-          "#e9590c",
-          "#4bbb35",
-          "#54b070"
-        ]
+        "colors": ["#80ff00","#e1ff00","#e9590c","#4bbb35","#54b070"]
       },
       "lighting": {
         "ambient_color": "#000510",
@@ -699,38 +588,22 @@
           {
             "color": "#00ff11",
             "intensity": 20,
-            "position": [
-              1.5,
-              3,
-              4
-            ]
+            "position": [1.5,3,4]
           },
           {
             "color": "#e1ff00",
             "intensity": 2.5,
-            "position": [
-              -4,
-              -3.5,
-              3
-            ]
+            "position": [-4,-3.5,3]
           },
           {
             "color": "#8800ff",
             "intensity": 6,
-            "position": [
-              0,
-              -4,
-              -3
-            ]
+            "position": [0,-4,-3]
           },
           {
             "color": "#ffffff",
             "intensity": 2,
-            "position": [
-              -3,
-              4,
-              -2
-            ]
+            "position": [-3,4,-2]
           }
         ]
       },
@@ -753,12 +626,7 @@
         "rings": {
           "enabled": false,
           "count": 1,
-          "colors": [
-            "#0055ff",
-            "#00ffaa",
-            "#8800ff",
-            "#ffffff"
-          ],
+          "colors": ["#0055ff","#00ffaa","#8800ff","#ffffff"],
           "base_opacity": 0,
           "spin_speed": 0.05
         },
@@ -848,11 +716,7 @@
         "swirl_radius_min": 4.9,
         "swirl_radius_max": 14,
         "swirl_y_squash": 0.3,
-        "colors": [
-          "#f50000",
-          "#d26a6a",
-          "#ff0000"
-        ],
+        "colors": ["#f50000","#d26a6a","#ff0000"],
         "shape": "petal",
         "petal_flutter": 1.6
       },
@@ -863,47 +727,27 @@
           {
             "color": "#b66707",
             "intensity": 7.520518654949613,
-            "position": [
-              4,
-              3,
-              4
-            ]
+            "position": [4,3,4]
           },
           {
             "color": "#ef8b10",
             "intensity": 5.071618225190703,
-            "position": [
-              -4,
-              -2,
-              3
-            ]
+            "position": [-4,-2,3]
           },
           {
             "color": "#ef8b10",
             "intensity": 5.948733774136388,
-            "position": [
-              0,
-              -4,
-              -3
-            ]
+            "position": [0,-4,-3]
           },
           {
             "color": "#ef8b10",
             "intensity": 4.583925482674308,
-            "position": [
-              -3,
-              4,
-              -2
-            ]
+            "position": [-3,4,-2]
           },
           {
             "color": "#336ccc",
             "intensity": 6.7017193526159895,
-            "position": [
-              2,
-              -3,
-              2
-            ]
+            "position": [2,-3,2]
           }
         ]
       },
@@ -926,12 +770,7 @@
         "rings": {
           "enabled": false,
           "count": 1,
-          "colors": [
-            "#0055ff",
-            "#00ffaa",
-            "#8800ff",
-            "#ffffff"
-          ],
+          "colors": ["#0055ff","#00ffaa","#8800ff","#ffffff"],
           "base_opacity": 0,
           "spin_speed": 0.05
         },
@@ -1009,11 +848,7 @@
         "swirl_radius_min": 4.9,
         "swirl_radius_max": 14,
         "swirl_y_squash": 0.1,
-        "colors": [
-          "#59d981",
-          "#33fffe",
-          "#5e33ff"
-        ],
+        "colors": ["#59d981","#33fffe","#5e33ff"],
         "shape": "dot",
         "petal_flutter": 1.6
       },
@@ -1024,47 +859,27 @@
           {
             "color": "#bd4842",
             "intensity": 7.838511625000088,
-            "position": [
-              4,
-              3,
-              4
-            ]
+            "position": [4,3,4]
           },
           {
             "color": "#29d65f",
             "intensity": 7.498984776110917,
-            "position": [
-              -4,
-              -2,
-              3
-            ]
+            "position": [-4,-2,3]
           },
           {
             "color": "#00fffe",
             "intensity": 7.259522366503864,
-            "position": [
-              0,
-              -4,
-              -3
-            ]
+            "position": [0,-4,-3]
           },
           {
             "color": "#3600ff",
             "intensity": 6.617342848229265,
-            "position": [
-              -3,
-              4,
-              -2
-            ]
+            "position": [-3,4,-2]
           },
           {
             "color": "#dd00ff",
             "intensity": 6.044429622717534,
-            "position": [
-              2,
-              -3,
-              2
-            ]
+            "position": [2,-3,2]
           }
         ]
       },
@@ -1087,12 +902,7 @@
         "rings": {
           "enabled": false,
           "count": 1,
-          "colors": [
-            "#0055ff",
-            "#00ffaa",
-            "#8800ff",
-            "#ffffff"
-          ],
+          "colors": ["#0055ff","#00ffaa","#8800ff","#ffffff"],
           "base_opacity": 0,
           "spin_speed": 0.05
         },
@@ -1170,13 +980,7 @@
         "swirl_radius_min": 10,
         "swirl_radius_max": 14,
         "swirl_y_squash": 0.35,
-        "colors": [
-          "#5ed75b",
-          "#58da8e",
-          "#5c7fd6",
-          "#ff333a",
-          "#ff3338"
-        ],
+        "colors": ["#5ed75b","#58da8e","#5c7fd6","#ff333a","#ff3338"],
         "shape": "dot",
         "petal_flutter": 1.6
       },
@@ -1187,47 +991,27 @@
           {
             "color": "#30d32c",
             "intensity": 4.915305823599081,
-            "position": [
-              4,
-              3,
-              4
-            ]
+            "position": [4,3,4]
           },
           {
             "color": "#28d770",
             "intensity": 7.67538908064525,
-            "position": [
-              -4,
-              -2,
-              3
-            ]
+            "position": [-4,-2,3]
           },
           {
             "color": "#2d5cd2",
             "intensity": 7.575288689316375,
-            "position": [
-              0,
-              -4,
-              -3
-            ]
+            "position": [0,-4,-3]
           },
           {
             "color": "#ff0008",
             "intensity": 7.892135140492041,
-            "position": [
-              -3,
-              4,
-              -2
-            ]
+            "position": [-3,4,-2]
           },
           {
             "color": "#ff0006",
             "intensity": 6.822298229492165,
-            "position": [
-              2,
-              -3,
-              2
-            ]
+            "position": [2,-3,2]
           }
         ]
       },
@@ -1250,12 +1034,7 @@
         "rings": {
           "enabled": false,
           "count": 1,
-          "colors": [
-            "#0055ff",
-            "#00ffaa",
-            "#8800ff",
-            "#ffffff"
-          ],
+          "colors": ["#0055ff","#00ffaa","#8800ff","#ffffff"],
           "base_opacity": 0,
           "spin_speed": 0.05
         },
@@ -1333,13 +1112,7 @@
         "swirl_radius_min": 10,
         "swirl_radius_max": 14,
         "swirl_y_squash": 2,
-        "colors": [
-          "#eea644",
-          "#f0ac42",
-          "#46c8ec",
-          "#4b71e7",
-          "#c36f74"
-        ],
+        "colors": ["#eea644","#f0ac42","#46c8ec","#4b71e7","#c36f74"],
         "shape": "dot",
         "petal_flutter": 1.6
       },
@@ -1350,47 +1123,27 @@
           {
             "color": "#f0910f",
             "intensity": 5.12157680628615,
-            "position": [
-              4,
-              3,
-              4
-            ]
+            "position": [4,3,4]
           },
           {
             "color": "#f3990c",
             "intensity": 7.883003535327455,
-            "position": [
-              -4,
-              -2,
-              3
-            ]
+            "position": [-4,-2,3]
           },
           {
             "color": "#12beed",
             "intensity": 4.21570033197818,
-            "position": [
-              0,
-              -4,
-              -3
-            ]
+            "position": [0,-4,-3]
           },
           {
             "color": "#184ae7",
             "intensity": 5.330824733468925,
-            "position": [
-              -3,
-              4,
-              -2
-            ]
+            "position": [-3,4,-2]
           },
           {
             "color": "#ba454c",
             "intensity": 5.638649064103274,
-            "position": [
-              2,
-              -3,
-              2
-            ]
+            "position": [2,-3,2]
           }
         ]
       },
@@ -1413,12 +1166,267 @@
         "rings": {
           "enabled": false,
           "count": 1,
-          "colors": [
-            "#0055ff",
-            "#00ffaa",
-            "#8800ff",
-            "#ffffff"
-          ],
+          "colors": ["#0055ff","#00ffaa","#8800ff","#ffffff"],
+          "base_opacity": 0,
+          "spin_speed": 0.05
+        },
+        "emissive_glow": {
+          "enabled": false,
+          "color": "#001166",
+          "intensity": 0.2
+        },
+        "fog": {
+          "enabled": true,
+          "color": "#000308",
+          "density": 0.025
+        },
+        "wireframe_shell": {
+          "enabled": false,
+          "color": "#00ffaa",
+          "opacity": 0.08
+        },
+        "stars": {
+          "enabled": true,
+          "count": 2000,
+          "opacity": 0.6,
+          "size": 0.07
+        }
+      }
+    },
+    {
+      "file": "models/celeste.glb",
+      "name": "",
+      "background_color": "#000308",
+      "gradient": {
+        "enabled": true,
+        "type": "linear",
+        "angle": 181,
+        "stops": [
+          {
+            "color": "#ffffff",
+            "position": 0
+          },
+          {
+            "color": "#cb0106",
+            "position": 1
+          }
+        ]
+      },
+      "transform": {
+        "position": {
+          "x": 0.05,
+          "y": 0.1,
+          "z": -0.6
+        },
+        "rotation": {
+          "x": -1,
+          "y": -1,
+          "z": 1
+        },
+        "scale": 1.85
+      },
+      "animation": {
+        "enabled": false,
+        "clip_index": 0,
+        "time_scale": 1,
+        "paused": false
+      },
+      "cursor_tracking": {
+        "enabled": true,
+        "strength": 0.29,
+        "smoothing": 0.08
+      },
+      "aura": {
+        "particle_count": 8000,
+        "particle_size": 0.055,
+        "particle_opacity": 0.54,
+        "particle_speed": 3,
+        "swirl_radius_min": 10,
+        "swirl_radius_max": 14,
+        "swirl_y_squash": 0.35,
+        "colors": ["#5ed75b","#58da8e","#5c7fd6","#ff333a","#ff3338"],
+        "shape": "dot",
+        "petal_flutter": 1.6
+      },
+      "lighting": {
+        "ambient_color": "#f7f7f7",
+        "ambient_intensity": 0,
+        "lights": [
+          {
+            "color": "#30d32c",
+            "intensity": 4.915305823599081,
+            "position": [4,3,4]
+          },
+          {
+            "color": "#28d770",
+            "intensity": 7.67538908064525,
+            "position": [-4,-2,3]
+          },
+          {
+            "color": "#2d5cd2",
+            "intensity": 7.575288689316375,
+            "position": [0,-4,-3]
+          },
+          {
+            "color": "#ff0008",
+            "intensity": 7.892135140492041,
+            "position": [-3,4,-2]
+          },
+          {
+            "color": "#ff0006",
+            "intensity": 6.822298229492165,
+            "position": [2,-3,2]
+          }
+        ]
+      },
+      "effects": {
+        "auto_rotate": {
+          "enabled": false,
+          "speed_x": 0.002,
+          "speed_y": -0.02
+        },
+        "bob": {
+          "enabled": false,
+          "amplitude": 0.05,
+          "speed": 0.3
+        },
+        "pulse_scale": {
+          "enabled": false,
+          "amplitude": 0.02,
+          "speed": 0.8
+        },
+        "rings": {
+          "enabled": false,
+          "count": 1,
+          "colors": ["#0055ff","#00ffaa","#8800ff","#ffffff"],
+          "base_opacity": 0,
+          "spin_speed": 0.05
+        },
+        "emissive_glow": {
+          "enabled": false,
+          "color": "#001166",
+          "intensity": 0.2
+        },
+        "fog": {
+          "enabled": true,
+          "color": "#000308",
+          "density": 0.025
+        },
+        "wireframe_shell": {
+          "enabled": false,
+          "color": "#00ffaa",
+          "opacity": 0.08
+        },
+        "stars": {
+          "enabled": true,
+          "count": 2000,
+          "opacity": 0.6,
+          "size": 0.07
+        }
+      }
+    },
+    {
+      "file": "models/chapeu_de_hacker.glb",
+      "name": "",
+      "background_color": "#000308",
+      "gradient": {
+        "enabled": true,
+        "type": "linear",
+        "angle": 181,
+        "stops": [
+          {
+            "color": "#000308",
+            "position": null
+          }
+        ]
+      },
+      "transform": {
+        "position": {
+          "x": -0.05,
+          "y": 0.55,
+          "z": 0.85
+        },
+        "rotation": {
+          "x": 21,
+          "y": -19,
+          "z": 1
+        },
+        "scale": 0.95
+      },
+      "animation": {
+        "enabled": false,
+        "clip_index": 0,
+        "time_scale": 1,
+        "paused": false
+      },
+      "cursor_tracking": {
+        "enabled": false,
+        "strength": 0.29,
+        "smoothing": 0.08
+      },
+      "aura": {
+        "particle_count": 100,
+        "particle_size": 0.08,
+        "particle_opacity": 1,
+        "particle_speed": 1.3,
+        "swirl_radius_min": 8.1,
+        "swirl_radius_max": 9.3,
+        "swirl_y_squash": 0.45,
+        "colors": ["#11ff00","#45b10b"],
+        "shape": "dot",
+        "petal_flutter": 1.6
+      },
+      "lighting": {
+        "ambient_color": "#f7f7f7",
+        "ambient_intensity": 0,
+        "lights": [
+          {
+            "color": "#f0910f",
+            "intensity": 5.12157680628615,
+            "position": [4,3,4]
+          },
+          {
+            "color": "#f3990c",
+            "intensity": 7.883003535327455,
+            "position": [-4,-2,3]
+          },
+          {
+            "color": "#12beed",
+            "intensity": 4.21570033197818,
+            "position": [0,-4,-3]
+          },
+          {
+            "color": "#184ae7",
+            "intensity": 5.330824733468925,
+            "position": [-3,4,-2]
+          },
+          {
+            "color": "#ba454c",
+            "intensity": 5.638649064103274,
+            "position": [2,-3,2]
+          }
+        ]
+      },
+      "effects": {
+        "auto_rotate": {
+          "enabled": false,
+          "speed_x": 0.002,
+          "speed_y": -0.02
+        },
+        "bob": {
+          "enabled": false,
+          "amplitude": 0.05,
+          "speed": 0.3
+        },
+        "pulse_scale": {
+          "enabled": false,
+          "amplitude": 0.02,
+          "speed": 0.8
+        },
+        "rings": {
+          "enabled": false,
+          "count": 1,
+          "colors": ["#0055ff","#00ffaa","#8800ff","#ffffff"],
           "base_opacity": 0,
           "spin_speed": 0.05
         },

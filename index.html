@@ -755,7 +755,13 @@ window.autoColors=function(idx){
 };
 
 
-window.copyJSON=()=>{navigator.clipboard.writeText(JSON.stringify(config,null,2)).then(()=>toast('Copied to clipboard!'));};
+function serializeConfig(obj){
+  // Pretty-print with 2-space indent, but collapse arrays of primitives onto one line
+  const raw=JSON.stringify(obj,null,2);
+  return raw.replace(/\[(\s*(?:"[^"]*"|[\d.eE+\-]+)(?:,\s*(?:"[^"]*"|[\d.eE+\-]+))*\s*)\]/gs,
+    (_,inner)=>'['+inner.trim().replace(/\s*\n\s*/g,'').replace(/,\s+/g,', ')+']');
+}
+window.copyJSON=()=>{navigator.clipboard.writeText(serializeConfig(config)).then(()=>toast('Copied to clipboard!'));};
 async function boot(){
   resizeGC();animate();
   try{

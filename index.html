@@ -756,10 +756,22 @@ window.autoColors=function(idx){
 
 
 function serializeConfig(obj){
-  // Pretty-print with 2-space indent, but collapse arrays of primitives onto one line
-  const raw=JSON.stringify(obj,null,2);
-  return raw.replace(/\[(\s*(?:"[^"]*"|[\d.eE+\-]+)(?:,\s*(?:"[^"]*"|[\d.eE+\-]+))*\s*)\]/gs,
-    (_,inner)=>'['+inner.trim().replace(/\s*\n\s*/g,'').replace(/,\s+/g,', ')+']');
+  function ser(v,depth){
+    if(v===null||typeof v!=='object') return JSON.stringify(v);
+    if(Array.isArray(v)){
+      const parts=v.map(item=>ser(item,depth+1));
+      if(depth>=2) return '['+parts.join(', ')+']';
+      const ind='  '.repeat(depth+1),cl='  '.repeat(depth);
+      return '[\n'+parts.map(p=>ind+p).join(',\n')+'\n'+cl+']';
+    }
+    const entries=Object.entries(v);
+    if(!entries.length) return '{}';
+    const parts=entries.map(([k,val])=>JSON.stringify(k)+': '+ser(val,depth+1));
+    if(depth>=2) return '{'+parts.join(', ')+'}';
+    const ind='  '.repeat(depth+1),cl='  '.repeat(depth);
+    return '{\n'+parts.map(p=>ind+p).join(',\n')+'\n'+cl+'}';
+  }
+  return ser(obj,0);
 }
 window.copyJSON=()=>{navigator.clipboard.writeText(serializeConfig(config)).then(()=>toast('Copied to clipboard!'));};
 async function boot(){

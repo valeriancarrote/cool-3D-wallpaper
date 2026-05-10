@@ -39,6 +39,9 @@
     #editor.open { transform:translateX(0); }
     .ed-header { padding:1rem 1.2rem 0.8rem; border-bottom:1px solid rgba(168,85,247,0.15); flex-shrink:0; }
     .ed-title { font-size:0.7rem; letter-spacing:0.35em; color:rgba(168,85,247,0.9); text-transform:uppercase; font-family:'Cinzel',serif; }
+    .ed-header { display:flex; align-items:center; justify-content:space-between; }
+    .ed-close-btn { background:transparent; border:1px solid rgba(168,85,247,0.3); color:rgba(168,85,247,0.6); font-size:0.7rem; width:24px; height:24px; cursor:pointer; display:flex; align-items:center; justify-content:center; transition:all 0.2s; flex-shrink:0; }
+    .ed-close-btn:hover { border-color:rgba(168,85,247,0.9); color:#a855f7; background:rgba(168,85,247,0.1); }
     .ed-mid { display:flex; flex:1; overflow:hidden; }
     .ed-tabs { display:flex; flex-direction:column; width:110px; flex-shrink:0; overflow-y:auto; border-right:1px solid rgba(168,85,247,0.12); padding:0.5rem 0; scrollbar-width:thin; scrollbar-color:rgba(168,85,247,0.2) transparent; }
     .ed-tabs::-webkit-scrollbar { width:3px; }
@@ -108,14 +111,14 @@
 </div>
 <div id="hint">DRAG · PINCH TO ZOOM</div>
 <div id="controls">
-  <button class="ctrl-btn accent" onclick="randomModel()">Random</button>
-  <button class="ctrl-btn" onclick="nextModel()">Next</button>
+  <button id="btn-random" class="ctrl-btn accent" onclick="randomModel()">Random</button>
+  <button id="btn-next" class="ctrl-btn" onclick="nextModel()">Next</button>
   <button class="ctrl-btn ed-tog" id="ed-btn" onclick="toggleEditor()">Editor</button>
 </div>
 <div id="error-banner"></div>
 <div id="toast"></div>
 <div id="editor">
-  <div class="ed-header"><div class="ed-title">Aether Visual Editor</div></div>
+  <div class="ed-header"><div class="ed-title">Aether Visual Editor</div><button class="ed-close-btn" onclick="toggleEditor()" title="Close editor">✕</button></div>
   <div class="ed-mid">
     <div class="ed-tabs" id="ed-tabs"></div>
     <div class="ed-body" id="ed-body"></div>
@@ -779,7 +782,15 @@ async function boot(){
   try{
     const res=await fetch('config.json');if(!res.ok)throw new Error('HTTP '+res.status);
     config=await res.json();if(!config.objects?.length)throw new Error('No objects in config.json');
-    await activateObject(0);resetTimer();
+    // Apply UI visibility from config
+    const ui=config.ui||{};
+    if(ui.show_random===false) document.getElementById('btn-random').style.display='none';
+    if(ui.show_next===false) document.getElementById('btn-next').style.display='none';
+    if(ui.show_editor===false) document.getElementById('ed-btn').style.display='none';
+    if(ui.show_countdown===false||config.show_countdown===false) document.getElementById('countdown').style.display='none';
+    // Random first model
+    currentIndex=Math.floor(Math.random()*config.objects.length);
+    await activateObject(currentIndex);resetTimer();
   }catch(err){showError(err.message+' - Run: python -m http.server 8080');}
 }
 boot();
